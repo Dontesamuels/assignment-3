@@ -1,0 +1,19 @@
+{
+  "name": "fitness-data-processor",
+  "version": "1.0.0",
+  "description": "Reads workout CSV and health JSON, summarizes data",
+  "main": "dataProcessor.js",
+  "scripts": {
+    "start": "node dataProcessor.js",
+    "test": "jest --silent"
+  },
+  "author": "Donte Samuels",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
